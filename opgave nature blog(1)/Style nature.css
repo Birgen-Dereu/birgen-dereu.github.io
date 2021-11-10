@@ -24,7 +24,8 @@ nav a{
 }
 nav a:visited{
     color: green;
-}/*hover onder visited zetten want dan blijft je nav balk verkleuren n
+}
+/*hover onder visited zetten want dan blijft je nav balk verkleuren n
 bij hoveren anders niet, de code wordt overgechreven dus werkt het niet*/
 nav a:hover{
     color: white;
@@ -35,10 +36,17 @@ article{
     margin: 5px;
     padding: 5px;
 }
-article header{
+article h1{
     font-size: 30px;
     text-decoration: underline;
 }
-footer{
-
+article:before{
+    background-image: url("../imgages/nature blog example.png");
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    content: "";/*dit moet erbij anders werkt de before niet*/
+}
+article:after{
+    content: "After";
 }
