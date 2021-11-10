@@ -1,0 +1,44 @@
+body{
+    width: 1200px;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    margin: 0 auto;
+}
+#title{
+    background-image: url("../imgages/header.jpg");
+    height: 100px;
+}
+#title h1{
+    color: #FFFFFF;
+    font-size: 35px;
+    margin: 10px;
+}
+nav{
+    background-color: #484848;
+}
+nav a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+nav a:visited{
+    color: green;
+}/*hover onder visited zetten want dan blijft je nav balk verkleuren n
+bij hoveren anders niet, de code wordt overgechreven dus werkt het niet*/
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+article{
+    background-color: #dcdcdc;
+    margin: 5px;
+    padding: 5px;
+}
+article header{
+    font-size: 30px;
+    text-decoration: underline;
+}
+footer{
+
+}
